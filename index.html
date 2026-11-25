@@ -28,6 +28,29 @@
     footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 12px; color: #727272; }
     footer a { color: var(--muted); text-decoration: none; margin-right: 16px; }
     footer a:hover { color: #fff; }
+
+    
+
+    
+    /* BENCH_CSS_START */
+    .bench-wrap { margin-top: 58px; }
+    .bench-head { text-align: center; margin-bottom: 26px; }
+    .bench-head h2 { font-size: clamp(22px, 3.2vw, 30px); font-weight: 900; letter-spacing: -0.025em; margin-bottom: 8px; }
+    .bench-head p { color: var(--muted); font-size: 14px; max-width: 650px; margin: 0 auto; }
+    .aa-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 16px; }
+    .aa-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px 16px 14px; }
+    .aa-title { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 800; color: #f8fafc; margin-bottom: 3px; }
+    .aa-sq { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex-shrink: 0; }
+    .aa-sub { font-size: 11.5px; color: #7e8594; margin-bottom: 12px; }
+    .scatter-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 22px 22px 16px; }
+    .scatter-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+    .scatter-top h3 { font-size: 16px; font-weight: 800; color: #f8fafc; margin-bottom: 2px; }
+    .scatter-top p { font-size: 12px; color: #7e8594; }
+    .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: #cbd5e1; align-items: center; }
+    .leg-item { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+    .leg-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .bench-note { margin-top: 12px; font-size: 11.5px; color: #6e7482; line-height: 1.55; text-align: center; }
+    /* BENCH_CSS_END */
   </style>
 </head>
 <body>
@@ -73,6 +96,56 @@
         <p>Train private or marketplace Brains on outlier Shorts in your niche and earn $50 RPM royalties.</p>
       </div>
     </section>
+
+
+
+
+
+<!-- BENCHMARK_START -->
+    <section class="bench-wrap">
+      <div class="bench-head">
+        <h2>Niche-Calibrated AI vs. Generalist Frontier Models</h2>
+        <p>Head-to-head Shorts retention benchmark across 6 creator niches. PULSE V5 evaluates continuous 16 FPS video, audio, and narrative arcs strictly Out-Of-Fold.</p>
+      </div>
+
+      <div class="aa-row">
+        <div class="aa-card">
+          <div class="aa-title"><span class="aa-sq" style="background:#1ED760"></span> Prediction Accuracy</div>
+          <div class="aa-sub">Winner vs. Flop classification &#183; Higher is better</div>
+          <svg viewBox="0 0 316 182" style="width:100%;height:auto;display:block"><line x1="10" y1="107.5" x2="306" y2="107.5" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="79.0" x2="306" y2="79.0" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="50.5" x2="306" y2="50.5" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="22.0" x2="306" y2="22.0" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="136" x2="306" y2="136" stroke="#2f3545" stroke-width="1" /><rect x="38.8" y="37.8" width="38" height="98.2" rx="5" fill="#1ED760" stroke="#86efac" stroke-width="1.5" /><text x="57.8" y="31.8" text-anchor="middle" fill="#1ED760" font-size="11" font-weight="800">71.7%</text><text x="57.8" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">PULSE V5</text><text x="57.8" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">0.789 AUC</text><rect x="105.6" y="44.1" width="38" height="91.9" rx="5" fill="#14161d" stroke="#64748b" stroke-width="1.5" /><text x="124.6" y="38.1" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="800">70.0%</text><text x="124.6" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">GPT-6 Luna</text><text x="124.6" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">0.761 AUC</text><rect x="172.4" y="56.2" width="38" height="79.8" rx="5" fill="#14161d" stroke="#64748b" stroke-width="1.5" /><text x="191.4" y="50.2" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="800">66.7%</text><text x="191.4" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">GPT-6.1 Terra</text><text x="191.4" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">0.741 AUC</text><rect x="239.2" y="62.5" width="38" height="73.5" rx="5" fill="#1d4ed8" stroke="#60a5fa" stroke-width="1.5" /><text x="258.2" y="56.5" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="800">65.0%</text><text x="258.2" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">Gemini 4 Hy</text><text x="258.2" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">0.711 AUC</text></svg>
+        </div>
+        <div class="aa-card">
+          <div class="aa-title"><span class="aa-sq" style="background:#f59e0b"></span> Time per Audit</div>
+          <div class="aa-sub">End-to-end latency (seconds) &#183; Lower is better</div>
+          <svg viewBox="0 0 316 182" style="width:100%;height:auto;display:block"><line x1="10" y1="107.5" x2="306" y2="107.5" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="79.0" x2="306" y2="79.0" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="50.5" x2="306" y2="50.5" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="22.0" x2="306" y2="22.0" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="136" x2="306" y2="136" stroke="#2f3545" stroke-width="1" /><rect x="38.8" y="123.3" width="38" height="12.7" rx="5" fill="#1ED760" stroke="#86efac" stroke-width="1.5" /><text x="57.8" y="117.3" text-anchor="middle" fill="#1ED760" font-size="11" font-weight="800">2.5s</text><text x="57.8" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">PULSE V5</text><text x="57.8" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">Full Pipe</text><rect x="105.6" y="106.6" width="38" height="29.4" rx="5" fill="#14161d" stroke="#64748b" stroke-width="1.5" /><text x="124.6" y="100.6" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="800">5.8s</text><text x="124.6" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">GPT-6 Luna</text><text x="124.6" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">+STT</text><rect x="172.4" y="105.1" width="38" height="30.9" rx="5" fill="#14161d" stroke="#64748b" stroke-width="1.5" /><text x="191.4" y="99.1" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="800">6.1s</text><text x="191.4" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">GPT-6.1 Terra</text><text x="191.4" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">+STT</text><rect x="239.2" y="34.7" width="38" height="101.3" rx="5" fill="#1d4ed8" stroke="#60a5fa" stroke-width="1.5" /><text x="258.2" y="28.7" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="800">20.0s</text><text x="258.2" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">Gemini 4 Hy</text><text x="258.2" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">1 FPS</text></svg>
+        </div>
+        <div class="aa-card">
+          <div class="aa-title"><span class="aa-sq" style="background:#ef4444"></span> End-to-End Cost / 1K</div>
+          <div class="aa-sub">Visual + audio/STT compute &#183; Lower is better</div>
+          <svg viewBox="0 0 316 182" style="width:100%;height:auto;display:block"><line x1="10" y1="107.5" x2="306" y2="107.5" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="79.0" x2="306" y2="79.0" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="50.5" x2="306" y2="50.5" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="22.0" x2="306" y2="22.0" stroke="#232733" stroke-dasharray="2,3" stroke-width="1" /><line x1="10" y1="136" x2="306" y2="136" stroke="#2f3545" stroke-width="1" /><rect x="38.8" y="129.2" width="38" height="6.8" rx="5" fill="#1ED760" stroke="#86efac" stroke-width="1.5" /><text x="57.8" y="123.2" text-anchor="middle" fill="#1ED760" font-size="11" font-weight="800">$0.50</text><text x="57.8" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">PULSE V5</text><text x="57.8" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">Full Pipe</text><rect x="105.6" y="110.5" width="38" height="25.5" rx="5" fill="#14161d" stroke="#64748b" stroke-width="1.5" /><text x="124.6" y="104.5" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="800">$3.91</text><text x="124.6" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">GPT-6 Luna</text><text x="124.6" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">+STT</text><rect x="172.4" y="101.7" width="38" height="34.3" rx="5" fill="#14161d" stroke="#64748b" stroke-width="1.5" /><text x="191.4" y="95.7" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="800">$5.26</text><text x="191.4" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">GPT-6.1 Terra</text><text x="191.4" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">+STT</text><rect x="239.2" y="32.9" width="38" height="103.1" rx="5" fill="#1d4ed8" stroke="#60a5fa" stroke-width="1.5" /><text x="258.2" y="26.9" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="800">$15.83</text><text x="258.2" y="151" text-anchor="middle" fill="#cbd5e1" font-size="9.5" font-weight="700">Gemini 4 Hy</text><text x="258.2" y="164" text-anchor="middle" fill="#7e8594" font-size="8.8">1 FPS</text></svg>
+        </div>
+      </div>
+
+      <div class="scatter-card">
+        <div class="scatter-top">
+          <div>
+            <h3>Accuracy vs. Cost per 1,000 Audits</h3>
+            <p>Full-pipeline accuracy plotted against total visual + audio processing cost (USD, Log Scale)</p>
+          </div>
+          <div class="legend">
+            <span class="leg-item"><span class="leg-dot" style="background:#1ED760"></span> PULSE V5</span>
+            <span class="leg-item"><span class="leg-dot" style="background:#14161d;border:1.5px solid #94a3b8"></span> OpenAI (GPT-6)</span>
+            <span class="leg-item"><span class="leg-dot" style="background:#1d4ed8;border:1.5px solid #60a5fa"></span> Google (Gemini 4)</span>
+          </div>
+        </div>
+        <svg viewBox="0 0 860 330" style="width:100%;height:auto;display:block"><rect x="68" y="26" width="362.8" height="124.0" fill="rgba(30, 215, 96, 0.08)" rx="4" /><text x="80" y="46" fill="#1ED760" font-size="11" font-weight="700" opacity="0.9">Most attractive quadrant (High Accuracy &#183; Low Cost)</text><line x1="68" y1="256.3" x2="832" y2="256.3" stroke="#1f232e" stroke-dasharray="2,3" /><text x="58" y="260.3" text-anchor="end" fill="#7e8594" font-size="11">62%</text><line x1="68" y1="203.1" x2="832" y2="203.1" stroke="#1f232e" stroke-dasharray="2,3" /><text x="58" y="207.1" text-anchor="end" fill="#7e8594" font-size="11">65%</text><line x1="68" y1="150.0" x2="832" y2="150.0" stroke="#1f232e" stroke-dasharray="2,3" /><text x="58" y="154.0" text-anchor="end" fill="#7e8594" font-size="11">68%</text><line x1="68" y1="96.9" x2="832" y2="96.9" stroke="#1f232e" stroke-dasharray="2,3" /><text x="58" y="100.9" text-anchor="end" fill="#7e8594" font-size="11">71%</text><line x1="68" y1="43.7" x2="832" y2="43.7" stroke="#1f232e" stroke-dasharray="2,3" /><text x="58" y="47.7" text-anchor="end" fill="#7e8594" font-size="11">74%</text><line x1="92.6" y1="26" x2="92.6" y2="274" stroke="#191c25" /><text x="92.6" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$0.4</text><line x1="133.8" y1="26" x2="133.8" y2="274" stroke="#191c25" /><text x="133.8" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$0.5</text><line x1="220.5" y1="26" x2="220.5" y2="274" stroke="#191c25" /><text x="220.5" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$0.8</text><line x1="261.7" y1="26" x2="261.7" y2="274" stroke="#191c25" /><text x="261.7" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$1</text><line x1="336.5" y1="26" x2="336.5" y2="274" stroke="#191c25" /><text x="336.5" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$1.5</text><line x1="389.6" y1="26" x2="389.6" y2="274" stroke="#191c25" /><text x="389.6" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$2</text><line x1="464.4" y1="26" x2="464.4" y2="274" stroke="#191c25" /><text x="464.4" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$3</text><line x1="517.5" y1="26" x2="517.5" y2="274" stroke="#191c25" /><text x="517.5" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$4</text><line x1="592.3" y1="26" x2="592.3" y2="274" stroke="#191c25" /><text x="592.3" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$6</text><line x1="686.5" y1="26" x2="686.5" y2="274" stroke="#191c25" /><text x="686.5" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$10</text><line x1="773.2" y1="26" x2="773.2" y2="274" stroke="#191c25" /><text x="773.2" y="292" text-anchor="middle" fill="#7e8594" font-size="11">$16</text><line x1="68" y1="274" x2="832" y2="274" stroke="#33394a" stroke-width="1.2" /><line x1="68" y1="26" x2="68" y2="274" stroke="#33394a" stroke-width="1.2" /><text x="450.0" y="322" text-anchor="middle" fill="#9ca3af" font-size="12" font-weight="600">End-to-End Cost per 1,000 Audits (USD, Log Scale)</text><text x="18" y="150.0" text-anchor="middle" fill="#9ca3af" font-size="12" font-weight="600" transform="rotate(-90 18 150.0)">Prediction Accuracy (%)</text><polyline points="68,84.5 133.8,84.5 832,84.5" fill="none" stroke="#1ED760" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="4,4" /><circle cx="133.8" cy="84.5" r="16" fill="rgba(30,215,96,0.18)" /><circle cx="133.8" cy="84.5" r="9" fill="#1ED760" stroke="#bbf7d0" stroke-width="2" /><text x="149.8" y="78.5" text-anchor="start" fill="#1ED760" font-size="12" font-weight="800">PULSE V5 (16 FPS + Timeline)</text><text x="149.8" y="92.5" text-anchor="start" fill="#7e8594" font-size="10.5">$0.50 &#183; 71.7% &#183; 0.789 AUC</text><circle cx="513.3" cy="114.6" r="7" fill="#14161d" stroke="#94a3b8" stroke-width="2" /><text x="513.3" y="86.6" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="800">GPT-6 Luna + STT</text><text x="513.3" y="100.6" text-anchor="middle" fill="#7e8594" font-size="10.5">$3.91 &#183; 70.0% &#183; 0.761 AUC</text><circle cx="568.0" cy="173.0" r="7" fill="#14161d" stroke="#94a3b8" stroke-width="2" /><text x="554.0" y="195.0" text-anchor="end" fill="#e2e8f0" font-size="12" font-weight="800">GPT-6.1 Terra + STT</text><text x="554.0" y="209.0" text-anchor="end" fill="#7e8594" font-size="10.5">$5.26 &#183; 66.7% &#183; 0.741 AUC</text><circle cx="771.3" cy="203.1" r="7" fill="#1d4ed8" stroke="#60a5fa" stroke-width="2" /><text x="759.3" y="185.1" text-anchor="end" fill="#93c5fd" font-size="12" font-weight="800">Gemini 4 Hydrogen (1fps video)</text><text x="759.3" y="199.1" text-anchor="end" fill="#7e8594" font-size="10.5">$15.83 &#183; 65.0% &#183; 0.711 AUC</text></svg>
+      </div>
+
+      <p class="bench-note">
+        *Evaluated across 6 creator niches (History, Personal Finance, GTA 6, Tech/AI, Competitive FPS, Fitness; 49.4s avg Short length). PULSE V5 scored via strict zero-leakage Out-Of-Fold validation ($0.50 / 1K audits on Modal T4 GPU). Gemini 4 Hydrogen ingested native MP4 video+audio at 1 FPS ($1.50/$7.50 per 1M tokens = $15.83 / 1K). OpenAI GPT-6 Luna &amp; Terra do not ingest raw MP4 audio/video natively; end-to-end totals combine measured vision+text tokens ($0.21 &amp; $1.56 / 1K) and latencies (3.4s &amp; 3.7s) with OpenAI <code>gpt-transcribe</code> ($0.0045/min = $3.70 / 1K; 2.4s measured audio extract + STT) alongside 8 sampled keyframes.
+      </p>
+    </section>
+<!-- BENCHMARK_END -->
 
     <footer>
       <div>&copy; 2026 PULSE Retention Studio</div>
